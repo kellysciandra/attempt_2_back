@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * inventory controller
+ * order controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::inventory.inventory');
+module.exports = createCoreController('api::order.order');
